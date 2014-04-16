@@ -1,0 +1,148 @@
+body {
+	background-color: white;
+	width: 1300px;
+	font-family: 'Droid Sans', sans-serif;
+
+}
+.container {
+	background-color: white;
+	
+	margin: 0 auto;
+}
+header {
+	width:100%;
+	height: 520px;
+	background-image: url("images/surfwave.jpg");
+	background-repeat: initial initial;
+	background-color: blue;
+	font-family: 'Droid Sans', sans-serif;
+	
+}
+
+h1 { 
+   position: absolute; 
+   width: 100%;
+   font-family: 'Droid Sans', sans-serif;
+   color: #015289;
+   text-align: left;
+   font-size: 18px; 
+}
+h2 { 
+   position: absolute; 
+   width: 100%;
+   font-family: 'Droid Sans', sans-serif;
+   font-size: 60px; 
+   color: white;
+   text-align: center;
+   padding-top: 240px
+}
+
+nav {
+	display:block;
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	text-align: center; 
+}
+ul.nav > {
+	width:75%;
+	margin:0 auto;
+	padding:0;
+}
+ul.nav > li {
+	display:inline-block;
+	padding:10px;
+	background-color: black;
+	color: white;
+}
+a:visited { color: white; }
+
+ul.nav > li:hover {
+	background-color: blue;
+}
+article {
+	clear:both;
+}
+section {
+	display:block;
+	float:left;
+	background-color: white;
+	margin-left:10px;
+
+}
+.column-header {
+	width:815px;
+	height: 200px;
+	padding: 40px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif; 
+
+
+}
+
+.column-content {
+	width:815px;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif; 
+}
+
+.column-sidebar1 {
+	width:200px;
+	height: 200px;
+	padding: 40px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif; 
+
+
+}
+
+.column-bottom {
+	width:100%;
+	margin-top: 10px;
+	padding:20px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px
+
+
+}
+
+.column-content9 {
+	width:96%;
+	margin-top: 10px;
+	padding:5px;
+	text-align: center;
+
+
+}
+
+.column-content9 {
+	width:96%;
+	margin-top: 10px;
+	padding:5px;
+	text-align: center;
+
+
+}
+
+.column-content33 {
+	width:30.5%;
+	margin-top: 10px;
+	padding:5px;
+	text-align: center;
+	background-color: black;
+	color: white;
+
+
+}
+
+.column-sidebar {
+	width:50%;
+}
+footer {
+	display:block;
+	min-height:200px;
+	background-color: grey;
+}
